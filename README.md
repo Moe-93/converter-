@@ -20,9 +20,9 @@ This Python script leverages the VirusTotal API to convert MD5 hashes into SHA-2
 | Step | Command |
 |------|---------|
 | **1. Install dependencies** | `pip install -r requirements.txt` |
-| **2. Run (free tier - ~15s delay)** | `python md5_to_sha256.py hashes.csv output.csv --api-key YOUR_VT_API_KEY` |
-| **3. Resume interrupted job** | `python md5_to_sha256.py hashes.csv output.csv --api-key KEY --resume` |
-| **4. Paid tier (faster)** | `python md5_to_sha256.py hashes.csv output.csv --api-key KEY --rate-limit 1.0` |
+| **2. Run (free tier - ~15s delay)** | `python md5convet.py hashes.csv output.csv --api-key YOUR_VT_API_KEY` |
+| **3. Resume interrupted job** | `python md5convet.py hashes.csv output.csv --api-key KEY --resume` |
+| **4. Paid tier (faster)** | `python md5convet.py hashes.csv output.csv --api-key KEY --rate-limit 1.0` |
 
 # Command Line Options
 ## ⚙️ Command Line Options
